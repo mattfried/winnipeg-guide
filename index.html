@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>City of Winnipeg Guide</title>
+	<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<nav class="header-container">
+    <header class="main-header">
+      <h1 class="name"><a>City of Winnipeg Guide</a></h1>
+      <ul class="main-nav">
+				<li><a href="https://en.wikipedia.org/wiki/Winnipeg" target="_blank">About Winnipeg</a></li>
+				<li class="navgap">|</li>
+        <li><a href="https://www.zomato.com/winnipeg-mb" target="_blank">food</a></li>
+				<li class="navgap">|</li>
+        <li><a href="https://www.nhl.com/jets/" target="_blank">winnipeg jets</a></li>
+      </ul>
+    </header><!--/.main-header-->
+  </nav>
+
+  <div class="banner">
+    <img class="logo" src="img/city-logo.svg" alt="City">
+    <h1 class="headline">Winnipeg Manitoba</h1>
+    <span class="tagline">The best drinks, eats, and everything else at the center of Canada.</span>
+  </div><!--/.banner-->
+
+  <div class="container">
+    <div class="secondary col">
+      <h2>Welcome!</h2>
+			<p>Winnipeg continues to be one of the most cultural cities in Canada, in combination with keeping its rich history on full display.</p>
+			<p>Trendy coffee shops to classy restaurants and you can&apos;t forget succulent dessert spots, Winnipeg has it all.</p>
+			<p>If sports are more your thing, then you&apos;re in luck with the local Winnipeg Jets. Spend an evening attending a game if you&apos;re fortunate enough to get your hands on a set of tickets!</p>
+			<div id="map"></div>
+			<a href="https://en.wikipedia.org/wiki/Winnipeg" target="_blank" class="button">Learn More<span class="btnIcon"></span></a>
+    </div><!--/.secondary-->
+
+    <div class="primary col">
+      <h2>Food, Coffee, & Treats</h2>
+
+      <figure>
+        <img class="location-img" src="img/location.svg" alt="location">
+        <img class="feat-img" src="img/treats.svg" alt="Drinks and eats">
+        <figcaption>Winnipeggers love their treats...</figcaption>
+      </figure>
+			<p>Winnipeg has a wide variety of areas within the city that ooze food and drink spots with some unique and some consisting of the usual popular establishments.</p>
+      <p>Located in the heart of the city, The Forks is a year-round hot spot that does not lack eats and drinks and things to do and see. Other notable locations in the city include but are not limited to Osborne Village, Corydon, St. Boniface, and Fort Garry just to name a few.</p>
+      <a href="https://www.zomato.com/winnipeg-mb" target="_blank" class="button left85">Explore the Options<span class="btnIcon"></span></a>
+    </div><!--/.primary-->
+
+    <div class="tertiary col">
+      <h2 class="tertiary-h2">Winnipeg Jets</h2>
+      <p>Hockey is Winnipeg&apos;s sport and is home to the most passionate fanbase in the entire NHL.</p>
+      <p>BellMTS Center in downtown Winnipeg is buzzing every NHL game night when the local Winnipeg Jets are hosting. Attending a Winnipeg Jets game at BellMTS Center with 15,000+ other passionate fans is a must if you have the opportunity.</p>
+			<a href="https://www.nhl.com/jets/" target="_blank" class="button left78">More Info<span class="btnIcon"></span></a>
+    </div><!--/.tertiary-->
+  </div>
+
+	<footer class="main-footer">
+    <div class="inner-footer">
+		  <span>&copy; 2018 A Resident of Winnipeg.</span>
+    </div>
+	</footer>
+	<script src="javascript/app.js">
+	</script>
+	<script async defer
+		 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaf3jphZhVCNQE5xJnFtZ7uRk8zJDJnLU&callback=initMap">
+	 </script>
+</body>
+
+</html>
