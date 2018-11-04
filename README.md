@@ -1,4 +1,4 @@
-# winnipegguide
+# winnipeg-guide
 City of Winnipeg Guide project Website
 
 https://mattfried.github.io/winnipegguide/
