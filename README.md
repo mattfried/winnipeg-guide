@@ -1,7 +1,7 @@
 # winnipeg-guide
-City of Winnipeg Guide project Website
+City of Winnipeg Guide project website
 
-https://mattfried.github.io/winnipegguide/
+https://mattfried.github.io/winnipeg-guide/
 
 The City of Winnipeg Guide is a single page website showcasing some of the city’s best food, drinks, and sporting events. This is a practice project for an online web development course.
 
